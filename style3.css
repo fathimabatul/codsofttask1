@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(level2/con.jpg);
+    background-color: rgb(90, 75, 98);
 }
 .Calculator h5{
     text-align: center;
