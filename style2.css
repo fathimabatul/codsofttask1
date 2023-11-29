@@ -1,0 +1,303 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: 100%;
+    background-color: bisque ;
+    background-position: center;
+    background-size: cover;
+   height: 100vh;
+    position: relative;
+  
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 25px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar.logo{
+    width:180px;
+    margin-top: -3%;
+    cursor: pointer;
+    margin-left: 65%;
+    padding: 55px;
+
+}
+ul{
+    margin-top :-3%;
+}
+ul li{
+    list-style: styl none; ;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(177, 48, 247) ;
+    margin:-3%;
+    transition: .4s ease;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul a:hover{
+    color:orange;
+}
+.info{
+    margin-left: 6%;
+    margin-top: 6%;
+}
+.info h1{
+    color: blue;
+
+}
+.info h2{
+    font-size: 26px;
+    color:rgb(217, 54, 212);
+    font-style: italic;
+    padding-bottom: 3px;
+}
+.info h3{
+    color:rgb(249, 86, 140) ;
+    font-size: 34px;
+    letter-spacing: 1px;
+    
+}
+.btn{
+    padding:12px 15px;
+    background: hsl(232, 96%, 40%);
+    border-radius: 40px;
+    color:aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 45px;
+    text-decoration: none;
+    box-shadow: 12px;
+}
+.btn:hover{
+    color: chartreuse;
+}
+.image{
+   align-items:center;
+    width:30%;
+    height:4px;
+    position:absolute;
+    right: 100px;
+    box-sizing: border-box; 
+    padding-top: 0px;
+  
+    margin-top: -14%;
+    
+}
+.image img{
+    align-items:center;
+position:absolute;
+width:300px;
+height: 300px;
+border-radius: 50%;
+border: 10px solid #fff;
+left:30%;
+transform:translate(-55%);
+transition: left 2s ease;
+
+}
+.image:hover .pic{
+    left: 55%;
+}
+
+/*----------------------About----------------------------------------------------------------------------------------------*/
+#about{
+    padding: 20px 10px;
+    background-color: rgb(122, 121, 121);;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+   
+    width:90%;
+    border-radius: 80%;
+}
+.about-col-2{
+    flex-basis: 60%;   
+}
+.about-col-2 h1{
+    padding-top: 33px;
+    font-size: 45px;
+    text-shadow:2px 2px  rgb(252, 187, 187);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(7, 5, 5);
+}
+.about-col-2 p{
+    color: rgb(12, 25, 138);
+    font-weight: 700px;
+    padding-top: 56px;
+    text-align: justify;
+    padding-left: -2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+}
+/*-------------------------------skills--------------------------------------------------------------------------------------------*/
+#skills{
+    padding :30px 0;
+    background-color: rgb(122, 121, 121);;
+}
+.learnings{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:40px ;
+    grid-area: 20px;
+}
+.title {
+    color: rgb(8, 17, 30);
+    text-shadow:2px 2px  rgb(240, 148, 148);
+    font-size: 40px;
+    font-weight: 900;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 14px;
+    margin-bottom: 12px; 
+}
+.learnings p{
+    color: #ff004f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.learnings div{
+    background:white;
+    border-radius: 123px;
+    padding: 40px;
+    transition:transform 0.5s;
+}
+.learnings div h2{
+    color: rgb(255, 10, 210);
+    font-size: 24px;
+    font-weight: 800;
+    font-style: bold;
+}
+.learnings div a{
+    text-decoration: none;
+    color: #251414;
+    font-size: 12px;
+    display: inline-block;
+}
+.learnings div:hover{
+    background: linear-gradient(pink,rgb(246, 246, 148));
+    transform: translateY(-10px);
+}
+/*------------------project------------------------------------------------------------------*/
+#projects{
+    padding: 50px 0;
+    background-color:rgb(122, 121, 121);
+}
+.title2{
+    text-shadow:2px 2px  rgb(243, 173, 173);
+    font-size: 40px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Projectslist{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:40px ;
+    grid-area: 20px;
+}
+.pro_ject{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.pro_ject img{
+    height: 100%;
+    width:100%;
+    border-radius:50px;
+    display:block;
+    transition: transform 0.5s;
+}
+.pro_ject:hover img{
+transform: scale(1.1);
+}
+.Layer{
+    width: 0;
+    height: 100%;
+    background: linear-gradient(rgba(237, 230, 230, 0.6),#ff0051);
+    position: absolute;
+    left:0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20 40px;
+    text-align: center;
+    font-size: 23px;
+    color:bisque;
+    transition: width 0.5s; 
+}
+.pro_ject:hover .Layer{
+    width: 100%;
+}
+.Layer h2{
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 15px;
+    color: black;
+}
+/*----------------------------------------contact----------------------------*/
+#contact{
+    padding: 10px 10;
+    background:linear-gradient(rgb(255, 255, 152),white);
+}
+.title3 h1{
+    text-shadow:2px 2px  rgb(249, 170, 170);
+    font-size: 40px;
+    margin: 0;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.Cont_act{
+   position: relative;
+    min-height: 10px;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.email img{ 
+    height: 45px;
+    width: 45px;
+    padding-top: 50px; 
+}
+.email p{
+    font-weight: 700;
+}
+
+/*------------------Footer----------------------------------------------------------*/
+.Footer{
+   padding: 10px 10px;
+    background-color: #251414;
+}
+.Footer p{
+    color: white;
+    text-align: center;
+}
+.designer{
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 19px;
+    font-weight: 400;
+    margin: 0px 8px;
+}
